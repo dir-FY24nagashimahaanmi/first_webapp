@@ -5,10 +5,10 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>クエリパラメーターのテスト</title>
+        <title>アプリケーションスコープのテスト</title>
     </head>
     <body>
-        <p>送信パラメータ : <%= request.getAttribute("q") %></p>
-        <p>送信パラメータ：<c:out value="${q}" /></p>
+        <h1><c:out value="${applicationScope.app_name}"/></h1>
+
     </body>
 </html>
